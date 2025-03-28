@@ -6,6 +6,10 @@
     <meta name="description" content="Projeto Portfólio">
 	<meta name="author" content="Willa Evangelista>
 	<meta name="keywords" content="HTML, CSS, JavaScript">
+
+    <!-- Link para Folha de Estilo da Página - CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
 	<title>Meu Perfil</title>
 </head>
 <body>
@@ -13,7 +17,7 @@
     <!-- Cabeçalho da Página (header) -->
     <header>
         <!-- Div Conteúdo do Cabeçalho -->
-        <div id="header_content">
+        <div id="header_content" class="flex">
             <!-- Título do Cabeçalho -->
             <div>
                 <!-- Seu nome -->
@@ -41,7 +45,7 @@
     <!-- Seção Principal da Página (main) -->
     <main>
         <!-- Seção Formulário de Contato e Redes Sociais -->
-         <section id="contact">
+         <section id="contact" class="flex">
             <!-- Seção do Formulário -->
              <form action="#" method="submit" id="formilario">
 
@@ -65,10 +69,12 @@
              </form>
 
               <!-- Seção do Google Maps -->
-             <article id="mapa">
+             <section id="mapa" class="flex_start">
 
-                <p>São Paulo - SP</p>
-
+                <div id="endereco">
+                    <p>São Paulo - SP</p>
+                </div>
+                
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935387.7446152921!2d-47.25340958631119!3d-23.681022112914793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-PT!2sbr!4v1743018393851!5m2!1spt-PT!2sbr"
                     width="400"
@@ -82,30 +88,30 @@
                 >
 
                 </iframe>
-             </article>
+             </section>
          </section>
 
     </main>
 
      <!-- Rodapé da Página (footer) -->
-    <footer>
+    <footer class="flex">
         <!-- Seção de Contato - Redes Sociais -->
         <section id="redes_sociais">
 
             <a href="https://www.linkedin.com/in/willaevangelista/">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn"/>
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
             </a>
             <a href="https://github.com/willaevangelista">
-                <img src="assets/img/github.svg" alt="GitHub"/>
+                <img src="assets/img/github.svg" alt="GitHub" class="social_icon"/>
             </a>
             <a href="https://linktr.ee/willaevangelista/">
-                <img src="assets/img/linktree.svg" alt="Linktree" width="90" height="90"/>
+                <img src="assets/img/linktree.svg" alt="Linktree" class="social_icon"/>
             </a>
 
         </section>
 
          <h3>
-            Feito com 💙 por Generation Brasil - 2025
+            Feito com 💙 por Willa Evangelista - 2025
          </h3>
     </footer>
     

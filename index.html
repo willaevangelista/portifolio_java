@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<he>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" contet="Projeto Portifólio">
+    <meta name="description" content="Projeto Portifólio">
     <meta name="author" content="Willa Evangelista">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="ïmg/svg"  href="./assets/img/favicon.svg">
+
+    <!-- Link para Folha de Estilo da Página - CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Meu Perfil</title>
 </head>
 <body>
@@ -14,7 +18,7 @@
      <header>
 
         <!-- Div Conteúdo do Cabeçalho -->
-         <div id="header_contet">
+         <div id="header_content" class="flex">
 
             <!-- Título do Cabeçalho -->
             <div ir="titulo">
@@ -54,20 +58,19 @@
      <main>
         <!-- Seção sobre você -->
         
-        <section id="about">
+        <section id="about" class="flex_start">
 
             <!-- Título da Seção -->
              <h2>Sobre Mim</h2>
 
             <!-- Conteúdo da Seção -->
-             <div id="conteudo">
+             <div id="conteudo" class="flex">
 
                 <!-- Imagem do criador do Conteúdo -->
                  <img
                     src="https://github.com/willaevangelista.png"
                     alt="Foto da Willa Evangelista"
-                    width="200" 
-                    height="200"
+                    class="img_profile"
                  />
 
                 <!-- Texto sobre o criador do conteúdo -->
@@ -90,9 +93,13 @@
          </section>
 
         <!-- Seção contendo um vídeo de sua preferência -->
-         <section id="video">
+         <section id="video" class="flex_start">
 
-            <div id="youtube">
+            <!-- Título da Seção -->
+            <h2>Meu vídeo favorito:</h2>
+
+            <!-- Vídeo da Seção -->
+            <div id="youtube" class="flex">
                 <iframe 
                     width="560" 
                     height="315" 
@@ -107,28 +114,26 @@
      </main>
 
      <!-- Rodapé da Página (footer) -->
-    
-     <footer>
-
+    <footer class="flex">
         <!-- Seção de Contato - Redes Sociais -->
-
         <section id="redes_sociais">
 
             <a href="https://www.linkedin.com/in/willaevangelista/">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn"/>
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
             </a>
             <a href="https://github.com/willaevangelista">
-                <img src="assets/img/github.svg" alt="GitHub"/>
+                <img src="assets/img/github.svg" alt="GitHub" class="social_icon"/>
             </a>
             <a href="https://linktr.ee/willaevangelista/">
-                <img src="assets/img/linktree.svg" alt="Linktree" width="90" height="90"/>
+                <img src="assets/img/linktree.svg" alt="Linktree" class="social_icon"/>
             </a>
 
         </section>
 
-        Feito com 💙 por Generation Brasil - 2025
-
-     </footer>
+         <h3>
+            Feito com 💙 por Willa Evangelista - 2025
+         </h3>
+    </footer>
 
 </body>
 </html>
