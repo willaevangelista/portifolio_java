@@ -72,7 +72,7 @@ Aqui estão os detalhes principais do código:
 
 - **`index.html`**: Página principal do portfólio, contendo seções como sobre mim, projetos e habilidades.
 - **`contato.html`**: Página dedicada ao formulário de contato, onde os visitantes podem enviar mensagens.
-- **`main.css`**: Arquivo responsável pelo estilo geral da página, incluindo cores, fontes e espaçamentos.
+- **`style.css`**: Arquivo responsável pelo estilo geral da página, incluindo cores, fontes e espaçamentos.
 - **`responsive.css`**: Estilos adicionais para garantir a adaptação correta em telas menores.
 - **`main.js`**: Contém scripts para funcionalidades interativas, como animações e exibição dinâmica de informações.
 - **`form-validation.ts`**: Código TypeScript para validação de formulários, garantindo que os dados inseridos estejam corretos antes do envio.
