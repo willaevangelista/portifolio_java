@@ -11,9 +11,10 @@
 }
 
 :root {
-    --purple-200: #9A7BD1;
-    --purple-500: #6B36C8;
-    --purple-800: #441F88;
+    
+    --dark-blue: #1955B7;
+    --medium-blue: #2388d8;
+    --light-blue: #51C9EE;
   
     --black-800: #171717;
 
@@ -84,8 +85,8 @@ p {
     width: 100%;
     justify-content: space-between;
     padding: 24px;
-    background-color: var(--purple-800);
-    border-bottom: 1px solid var(--purple-500);
+    background-color: var(--dark-blue);
+    border-bottom: 1px solid var(--medium-blue);
 }
 
 #menu li {
@@ -100,7 +101,7 @@ p {
 }
 
 #menu li a:hover {
-    color: var(--purple-200);
+    color: var(--light-blue);
     text-decoration: underline;
 }
 
@@ -136,7 +137,7 @@ footer{
     margin: 0;
     padding: 2rem;
     color: var(--white);
-    background-color: var(--purple-500);
+    background-color: var(--medium-blue);
     font-weight: bold;
     text-align: center;
 }
@@ -157,16 +158,16 @@ footer{
             sepia(0%) 
             saturate(7457%) 
             hue-rotate(23deg) 
-            brightness(95%) 
-            contrast(87%);
+            brightness(100%) 
+            contrast(100%);
 }
 
 .social_icon:hover {  
-    filter: brightness(0) 
+    filter: brightness(50%) 
             saturate(100%) 
             invert(65%) 
             sepia(59%) 
-            saturate(2437%) 
+            saturate(9437%) 
             hue-rotate(213deg) 
             brightness(86%) 
             contrast(88%);
@@ -219,8 +220,8 @@ form span {
 form button {
     text-align: center;
     padding: 0.75rem 2rem;
-    background: var(--purple-800);
-    border: 1px solid var(--purple-500);
+    background: var(--dark-blue);
+    border: 1px solid var(--medium-blue);
     color: var(--white);
     border-radius: 0.75rem;
     font-weight: 700;
@@ -228,7 +229,7 @@ form button {
 }
 
 form button:hover {
-    background: var(--purple-500);
+    background: var(--medium-blue);
 }
 
 #mapa {
